@@ -4,96 +4,61 @@ permalink: "/about/"
 layout: page
 ---
 
-## Installation
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
-## Features
+# datascience.github.io
+Analytics, Data Science, And AI
 
- - supports dark mode on macOS Mojave
- - optional sidebar
- - MathJax support
- - no external ressources
- - included archive page
- - supports pagination
- - feed generation
- - responsive
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+There are some projects I have done at Durham University's several Statistical Machine Leanring Courses and MIT Applied Data Science Program as a student. Some original datasets are not available to the public. The purpose of this repo is to show my data science skills, such as importing and cleaning data, network analysis, time series analysis and data visualization.
 
-## Based on
+See the details in Jupyter Notebook by clicking links.
 
-- [Hyde](https://github.com/poole/hyde)
-- [Minima](https://github.com/jekyll/minima)
-- [Lagrange](https://github.com/LeNPaul/Lagrange)
-- [Font Awesome](http://fontawesome.io/)
-- [KaTeX](https://katex.org/)
-- [Pygments](https://github.com/richleland/pygments-css)
+## 1. Finance Data and Decision Tree Classification Analysis
+* [Personal Loan Analysis](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/main/Bank_loan_Analysis/bank_loan.html) The classification goal is to predict the likelihood of a liability customer buying personal loans. Our bank wants a new marketing campaign; so that we need information about the correlation between the variables given in the dataset. The objective of this analysis is to utilize finance data to gain insights and make informed decisions in classifying our clients into our banks’ potential candidates for selling personal loans in the near future.
+* Explored tree algorithms and ensembled methods, such as bagging, boosting, and random forests
+* Anaylzed its ROC CURVE and tuned its decision threshold to reduced false negative rate 
+* powered by MLR3
 
-## Installation (jekyll-remote-theme method)
+## 2. Affective AI and Facial Emotion Recognition with Deep Learning
 
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
+* [Facial Emotion Recognition](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/c7b8338f8652429e9c0ba01395e977b079f8055f/Affective_AI_Project.html): Developed an image-processing model to classify facial emotions accurately, such as sad, happy, neutral, and surprise from 20000+ dataset using convolutional neural network and achieved 80.02 accuracy.
+* Performed Drop out, data augmentation, and early stopping to fine-tune the convolutional neural network.
+* powered by Tensorflow and Keras
 
-```yaml
-remote_theme: niklasbuschmann/contrast@v2.11
+## 3. Regression Analysis on Gene Expression Profiles
+* [Regression Anaysis]()
+* Performed Lasso Reularization, cross-validation, and PCA to do risk factor selection and reduced 7000 genes to only 17 dimesion.
+* Implemented non-parametric smoothing techniques, such as locopoly, B-spline,and Additive model, to make fewer assumptions than linear regression.
+* Used residaul diagnostic and r-squared to assesss regressors' and data's fitness and bootstrap confidence interval to effectively quantify the uncertainty of our estimated parameters.
 
-plugins:
-  - jekyll-remote-theme
-```
+## 4. Unsupervised Learning: Kernel Density Estimation and Gaussian Mixture Model
+* [Generative Method for clustering](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/main/UL%20ASML/UL-Summative.html):Synthesized new data by sampling from the generative model  
+* Clustering based on EM algorithm from the estimated probability Distribution
+* High Density Region
 
-Note: to enable icons you also need to copy over the `_data` folder.
 
-## Config
 
-Your `_config.yml` could for example look like this:
 
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
 
-# Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
 
-# Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+## 5. Environment and Geo-Spatial Analysis
+* Great Britain Tempertaure 
+* Iceland Crust 
 
-plugins:
- - jekyll-feed
+## 6. Art and Humanity: Shakespeare Network Analysis
 
-```
+* [Investigation into a time-varying Hamlet network](): Build a network of relationship between characters based on a player’s lines within each act 
+* [Community Detection](): Identify Key figures in Evolution of the plot and Detect personas within each Community
 
-## MathJax
 
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
 
-## License
 
-[public domain](http://unlicense.org/)
 
-## Screenshots
 
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
 
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
 
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
+![tree_jpg](https://user-images.githubusercontent.com/92969595/229353317-45f5c321-d68d-41cd-8e9e-9e5629ae2619.png)
