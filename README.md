@@ -1,13 +1,12 @@
 ---
-title: "About"
-permalink: "/about/"
+title: "Data Science"
+permalink: "/Data Science/"
 layout: page
 ---
 
 
 
-# datascience.github.io
-Analytics, Data Science, And AI
+# Analytics, Data Science, And AI
 
 There are some projects I have done at Durham University's several Statistical Machine Leanring Courses and MIT Applied Data Science Program as a student. Some original datasets are not available to the public. The purpose of this repo is to show my data science skills, such as importing and cleaning data, network analysis, time series analysis and data visualization.
 
