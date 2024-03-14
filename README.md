@@ -15,14 +15,13 @@ See the details in Jupyter Notebook by clicking links.
 ## 1. Finance Data and Decision Tree Classification Analysis
 * [Personal Loan Analysis](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/main/Bank_loan_Analysis/bank_loan.html) The classification goal is to predict the likelihood of a liability customer buying personal loans. Our bank wants a new marketing campaign; so that we need information about the correlation between the variables given in the dataset. The objective of this analysis is to utilize finance data to gain insights and make informed decisions in classifying our clients into our banks’ potential candidates for selling personal loans in the near future.
 * Explored tree algorithms and ensembled methods, such as bagging, boosting, and random forests
-* Anaylzed its ROC CURVE and tuned its decision threshold to reduced false negative rate 
-* powered by MLR3
+* Anaylzed its ROC CURVE and tuned its decision threshold to reduced false negative rate from 0.13 to 0.08 powered by MLR3
 
 ## 2. Affective AI and Facial Emotion Recognition with Deep Learning
 
 * [Facial Emotion Recognition](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/c7b8338f8652429e9c0ba01395e977b079f8055f/Affective_AI_Project.html): Developed an image-processing model to classify facial emotions accurately, such as sad, happy, neutral, and surprise from 20000+ dataset using convolutional neural network and achieved 80.02 accuracy.
-* Performed Drop out, data augmentation, and early stopping to fine-tune the convolutional neural network.
-* powered by Tensorflow and Keras
+* RePerformed Drop out, data augmentation, and early stopping to fine-tune the convolutional neural network powered by Tensorflow and Keras
+* [Report](https://github.com/Amberisfree/data-science-and-analytic/blob/d1c61ebed36a1940e0723951de937b0edf4e2b6c/Deeo%20learninig%20and%20Affective%20Computing/Final%20Submission.pdf)
 
 ## 3. Regression Analysis on Gene Expression Profiles
 * [Regression Anaysis](https://github.com/Amberisfree/data-science-and-analytic/blob/d1c61ebed36a1940e0723951de937b0edf4e2b6c/regression%20analysis%20on%20gene%20expression/reg_sum.pdf)
