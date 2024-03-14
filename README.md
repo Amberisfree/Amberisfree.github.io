@@ -25,7 +25,7 @@ See the details in Jupyter Notebook by clicking links.
 * powered by Tensorflow and Keras
 
 ## 3. Regression Analysis on Gene Expression Profiles
-* [Regression Anaysis]()
+* [Regression Anaysis](<embed src="https://github.com/Amberisfree/data-science-and-analytic/blob/d1c61ebed36a1940e0723951de937b0edf4e2b6c/regression%20analysis%20on%20gene%20expression/reg_sum.pdf" type="application/pdf" />)
 * Performed Lasso Reularization, cross-validation, and PCA to do risk factor selection and reduced 7000 genes to only 17 dimesion.
 * Implemented non-parametric smoothing techniques, such as locopoly, B-spline,and Additive model, to make fewer assumptions than linear regression.
 * Used residaul diagnostic and r-squared to assesss regressors' and data's fitness and bootstrap confidence interval to effectively quantify the uncertainty of our estimated parameters.
