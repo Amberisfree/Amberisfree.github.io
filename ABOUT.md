@@ -1,11 +1,10 @@
-
 ---
-title:  "About Me"
+title:  "ABOUT ME"
 layout: post
-categories: media
 ---
 
-![About Me](/assets/IMG_3062.JPG))
+
+![About Me](/assets/IMG_3062.JPG)
 
 Hey, my name is Amber Chang. I am studying in MSc in Scientific Computing and Data Analysis at Durham University and am actively pursuing a career in the field of Data Analysis or Software Engineering.
 
