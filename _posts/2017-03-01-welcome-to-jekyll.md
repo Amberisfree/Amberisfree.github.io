@@ -1,25 +1,18 @@
 ---
-title: "Welcome to Jekyll"
+title: "Hey! This is Amber."
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hey, my name is Amber Chang. I am studying in MSc in Scientific Computing and Data Analysis at Durham University and am actively pursuing a career in the field of Data Analysis or Software Engineering.
 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A passion for problem solving and analytical thinking led me choose to pursue in Computer Science. As a female computer science major, I found my interest in both Uncertainty Quantification and Parallel Computing. Under the supervision of Anne Reinarz, I have been devoted myself in improving an existing software development-- OpenGo Simulation
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Plus, my passion is not only limmted to Software 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+This gave me a thorough knowledge of supervised and unsupervised learning as well as some deep learning,
+I have listed several projects related to machine learning and data science in Data Sceince section.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+Having completed my masters, I am looking to secure a job in Data in which I look forward to applying cutting edge machine learning models to real world problems.
