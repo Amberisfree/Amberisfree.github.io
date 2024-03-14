@@ -1,19 +1,15 @@
 ---
-title: "Data Science"
+title: "Analytics, Data Science, And AI"
 permalink: "/Data Science/"
 layout: page
 ---
 
-
-
-# Analytics, Data Science, And AI
-
-There are some projects I have done at Durham University's several Statistical Machine Leanring Courses and MIT Applied Data Science Program as a student. Some original datasets are not available to the public. The purpose of this repo is to show my data science skills, such as importing and cleaning data, network analysis, time series analysis and data visualization.
+There are some projects I have done at Durham University's several Statistical Machine Leanring Courses and MIT Applied Data Science Program as a student. Some original datasets are not available to the public. The purpose of this repo is to show my data science skills, such as importing and cleaning data, regression, classification, decision tree, random forest, network analysis, time series analysis and data visualization.
 
 See the details in Jupyter Notebook by clicking links.
 
 ## 1. Finance Data and Decision Tree Classification Analysis
-* [Personal Loan Analysis](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/main/Bank_loan_Analysis/bank_loan.html) The classification goal is to predict the likelihood of a liability customer buying personal loans. Our bank wants a new marketing campaign; so that we need information about the correlation between the variables given in the dataset. The objective of this analysis is to utilize finance data to gain insights and make informed decisions in classifying our clients into our banks’ potential candidates for selling personal loans in the near future.
+* [Personal Loan Analysis](http://htmlpreview.github.io/?https://github.com/Amberisfree/datascience.github.io/blob/main/Bank_loan_Analysis/bank_loan.html) * The classification goal is to predict the likelihood of a liability customer buying personal loans. Our bank wants a new marketing campaign; so that we need information about the correlation between the variables given in the dataset. The objective of this analysis is to utilize finance data to gain insights and make informed decisions in classifying our clients into our banks’ potential candidates for selling personal loans in the near future.
 * Explored tree algorithms and ensembled methods, such as bagging, boosting, and random forests
 * Anaylzed its ROC CURVE and tuned its decision threshold to reduced false negative rate from 0.13 to 0.08 powered by MLR3
 
