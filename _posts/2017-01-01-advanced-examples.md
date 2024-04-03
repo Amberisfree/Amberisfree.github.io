@@ -22,7 +22,7 @@ Operational Intensity, which measures traffic between the caches and memory rath
 
 ##  Total Execution Time 
 
-We use  `the profiling tool: gprof`to determine the overall execution time and the hotspot function(s) that requires the most execution time. In order to determine the influence of the problem size, we carry out the profiling for N=k·104, where k=1,2,3,4,5,6,7,8,9,10. See the table:
+We use  `the profiling tool: gprof`to determine the overall execution time and the hotspot function(s) that requires the most execution time. In order to determine the influence of the problem size, we carry out the profiling for N=k·10000, where k=1,2,3,4,5,6,7,8,9,10. See the table:
 
 
 {% highlight c %}
@@ -53,8 +53,7 @@ We used 10000 as our problem size to profile with gprof. We observed that the ho
 
 ## Performance of Hotspot Function
 
-We used `likwid tool`  to profile the memory and floating point performance of the hotspot function as determined in Task (1.2) for N = 104. According to the result metric, the observed Operational intensity [FLOP/Byte] for our hotspot function (function_a) is  0.2417, which corresponds to our calculation in the task 1.1. 
-
+We used `likwid tool`  to profile the memory and floating point performance of the hotspot function as determined by gprof for N = 10000. According to the result metric, the observed Operational intensity [FLOP/Byte] for our hotspot function (function_a) is  0.2417, which corresponds to our initial calculation.
 
 <script src="https://gist.github.com/5555251.js?file=gist.md"></script>
 
@@ -64,9 +63,7 @@ We visualized the results obtained for the hotspot function as determined by cal
 
 According to `our roofline model`, we can either maximize data bandwidth or minimizing traffic: 
 
-    Firstly, our resource bottleneck is primarily limited by data transfer, because these points lie to the left of the ridge points. We suggest that our memory bottlenecks can be reduced with restructuring loops for unit stride access, ensure memory affinity, and use software prefetching. 
-	Secondly, on efficiency level, the traffic between the caches and DRAM is measured as the operational intensity, which increases with problem size and is approximately around 1/4 that matches our calculated best case operational intensity for function_a.  
-	Thirdly, since memory performance is defined by the memory system behind the caches
+Firstly, our resource bottleneck is primarily limited by data transfer, because these points lie to the left of the ridge points. We suggest that our memory bottlenecks can be reduced with restructuring loops for unit stride access, ensure memory affinity, and use software prefetching. Secondly, on efficiency level, the traffic between the caches and DRAM is measured as the operational intensity, which increases with problem size and is approximately around 1/4 that matches our calculated best case operational intensity for function_a. Thirdly, since memory performance is defined by the memory system behind the caches
 Perfect cache VS. pessimal cache……………………………
 
 
@@ -74,7 +71,8 @@ Perfect cache VS. pessimal cache……………………………
 
 ![Flower](https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg)
 
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
+[Flower](https://unsplash.com/photos/iGrsa9rL11o) from Introduced in Williams et al. Rooline: An Insightful Visual Performance Model for Multicore Architectures, CACM (2009).
+
 
 ## Optimization: see the next page
 
