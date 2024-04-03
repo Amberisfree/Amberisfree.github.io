@@ -11,8 +11,8 @@ categories: media
 
 | Header 1 | Number of Data Access | Number of Floating Point throughput | Best Case Operational Intensity (Flops/ Bytes) |
 |----------|----------|----------|----------|
-| function_a | $N^{2} +4N$ | $2N^{2}$ |$ \frac{2N^{2}}{8({N^2}+4N)} =\frac{N^{2}}{4({N^2}+4N)}  \approx 1/4$ |
-| function_b | $3N+1$      | $2N$     |$ \frac{2N}{8(3N+1)}=\frac{N}{4(3N+1)}  \approx 1/12$ |
+| function_a | $N^{2} +4N$ | $2N^{2}$ |$\frac{2N^{2}}{8({N^2}+4N)} =\frac{N^{2}}{4({N^2}+4N)}  \approx 1/4$ |
+| function_b | $3N+1$      | $2N$     |$\frac{2N}{8(3N+1)}=\frac{N}{4(3N+1)} \approx 1/12$ |
 | function_c | $3N+1$      | $1.5N$     |$\frac{3/2N}{8(3N+1)}=\frac{1}{16(N+1)} \approx 1/16$ |
 | function_d | $3N+1$      | $2N$     |$\frac{2N}{8(3N)}=1/12$ |
 
@@ -62,7 +62,7 @@ We used `likwid tool`  to profile the memory and floating point performance of t
 
 We visualized the results obtained for the hotspot function as determined by call graph in the form of a roofline model. Then, we outlined some techniques that could be applied to optimize the execution of time on CPUs. Our roofline model is Hamilton, which uses AMD EPTC 7702 64-Core Processor ( peak floating point performance is 53.5 GFlops/s and peak streaming memory bandwidths is 24000).
 
-According to 'our roofline model', we can either maximize data bandwidth or minimizing traffic: 
+According to `our roofline model`, we can either maximize data bandwidth or minimizing traffic: 
 
     Firstly, our resource bottleneck is primarily limited by data transfer, because these points lie to the left of the ridge points. We suggest that our memory bottlenecks can be reduced with restructuring loops for unit stride access, ensure memory affinity, and use software prefetching. 
 	Secondly, on efficiency level, the traffic between the caches and DRAM is measured as the operational intensity, which increases with problem size and is approximately around 1/4 that matches our calculated best case operational intensity for function_a.  
