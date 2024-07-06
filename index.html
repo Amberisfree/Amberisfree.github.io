@@ -5,9 +5,16 @@ title: "Home"
 ---
 layout: default
 ---
-<article>
-  <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
-  {{ Hey, my name is Amber Chang. I am studying in MSc in Scientific Computing and Data Analysis at Durham University and am actively pursuing a career in the field of Data Analysis or Software Engineering.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+</head>
+<body>
+  <article>
+    <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
+    <img src="/assets/IMG_3062.JPG" alt="About Me">
+    {{ Hey, my name is Amber Chang. I am studying in MSc in Scientific Computing and Data Analysis at Durham University and am actively pursuing a career in the field of Data Analysis or Software Engineering.
 
 A passion for problem solving and analytical thinking led me to combine High Performace Computing and Data Science.
 
@@ -18,8 +25,8 @@ As a computer science major, I found my interest in both Uncertainty Quantificat
 
 Having completed my masters, I am looking to secure a job in Data in which I look forward to applying cutting edge machine learning models to real world problems.
  }}
-</article>
+  </article>
 
-
-![About Me](/assets/IMG_3062.JPG)
-
+  
+</body>
+</html>
