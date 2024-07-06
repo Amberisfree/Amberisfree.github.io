@@ -1,6 +1,6 @@
 ---
 title: "Analytics, Data Science, And AI"
-permalink: "/Data Science/"
+permalink: "/DataScience/"
 layout: page
 ---
 
