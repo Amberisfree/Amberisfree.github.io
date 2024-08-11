@@ -10,4 +10,5 @@ See the details in Jupyter Notebook by clicking links.
 
 ## 1. Structural Innovation
 
-![Structural Innovation](/assets/Kaizen.pdf)
+
+<embed src="/assets/Kaizen.pdf" type="application/pdf">
