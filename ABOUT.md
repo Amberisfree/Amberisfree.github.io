@@ -12,7 +12,7 @@ A passion for problem solving and analytical thinking led me to combine High Per
 
 This gave me a thorough knowledge of supervised and unsupervised learning as well as some deep learning, I have listed several projects related to machine learning and data science in Data Sceince section.
 
-As a computer science major, I found my interest in both Uncertainty Quantification and Parallel Computing. Under the supervision of Anne Reinarz, I have been devoted myself in improving an existing software development-- OpenGo Simulation
+As a computer science major, I found my interest in both [Uncertainty Quantification](https://github.com/Amberisfree/UQ/tree/master) and Parallel Computing. Under the supervision of Anne Reinarz, I have been devoted myself in improving an existing software development-- OpenGo Simulation
 
 
 Having completed my masters, I am looking to secure a job in Data in which I look forward to applying cutting edge machine learning models to real world problems.
