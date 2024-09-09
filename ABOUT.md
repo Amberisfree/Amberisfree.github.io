@@ -41,7 +41,7 @@ Having completed my masters, I am looking to secure a job in Data in which I loo
 - Achieved 80.02% accuracy through dropout, data augmentation, and early stopping
 
 ## Professional Experience
-**Durham University & OPENGO SIM**, Leicester, UK, 2024
+**Durham University & OPENGO SIM**, Durham, UK, 2024
 - Created Docker environment on Ubuntu and resolved UMBridge server connection issues
 - Implemented advanced sampling methods (Quasi & Multilevel Monte Carlo)
 - Achieved 10x faster processing for 1000+ simulations on HPC system
