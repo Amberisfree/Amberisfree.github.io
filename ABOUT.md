@@ -22,8 +22,8 @@ Having completed my masters, I am looking to secure a job in Data in which I loo
 
 ## Education
 - **MSc Scientific Computing & Data Analytics**, Durham University (UK), 2023 – 2024
-- **BA in Foreign Languages and Literature**, Minor in Art and Design, National Taiwan University, 2015 – 2019
 - **Applied Data Science** (Online), Massachusetts Institute of Technology (USA), 2022 – 2023
+- **BA in Foreign Languages and Literature**, Minor in Art and Design, National Taiwan University, 2015 – 2019
 
 ## Research Interests
 - Computer Graphics: Data-Driven Methods, Physics-Based Simulation, Digital Fabrication, HCI
@@ -63,5 +63,5 @@ Having completed my masters, I am looking to secure a job in Data in which I loo
 
 ## Relevant Coursework
 - HPC: Scientific and High Performance Computing, Parallel Computing, Performance Modeling (A), Vectorization and GPU Programming (A)
-- AI/ML: Intro to Machine Learning (A+), Advanced Statistics and Machine Learning I & II (A)
-- Math: Calculus-Based Probability, Discrete Mathematics, Logic, Numerical Algorithm
+- AI/ML: Intro to Machine Learning (A+), Advanced Statistics and Machine Learning I(A) & II (A)
+- Math: Calculus-Based Probability(A), Discrete Mathematics(A), Logic, Numerical Algorithm
