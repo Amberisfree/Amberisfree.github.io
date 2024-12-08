@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-![About Me](/assets/IMG_3062.JPG)
+![About Me](/assets/IMG_1508.jpeg)
 
 Hey, my name is Amber Chang. I am studying in MSc in Scientific Computing and Data Analysis at Durham University and am actively pursuing a career in the field of Computational Data Science and AI.
 
